@@ -210,7 +210,7 @@ export default function Home() {
         </div>
 
         {/* Question */}
-        <h1 className="text-3xl sm:text-5xl font-bold text-pink-800 mb-12 px-4 drop-shadow-lg bg-white/60 rounded-2xl py-4">
+        <h1 className="text-3xl sm:text-5xl font-bold text-white mb-12 px-4 drop-shadow-lg  rounded-2xl py-4">
           Will u be my Valentine, Goalbhera?
         </h1>
 
