@@ -142,7 +142,7 @@ export default function Home() {
           priority
         />
         {/* Overlay for better text visibility */}
-        <div className="absolute inset-0 bg-pink-500/40"></div>
+        <div className="absolute inset-0 "></div>
 
         {showConfetti && (
           <Confetti
@@ -171,11 +171,14 @@ export default function Home() {
             Your browser does not support the video tag.
           </video>
 
-          <div className="text-center animate-bounce">
-            <div className="text-6xl sm:text-8xl mb-8 animate-pulse">💖</div>
-            <h1 className="text-4xl sm:text-6xl font-bold text-white mb-4 animate-fade-in drop-shadow-lg">
-              Thank You! 🥹 🎉
-            </h1>
+          <div className="text-center">
+            <Image
+              src="/after.webp"
+              alt="celebration"
+              width={384}
+              height={384}
+              className="w-64 h-64 sm:w-96 sm:h-96 animate-bounce mx-auto"
+            />
           </div>
         </div>
 
@@ -201,13 +204,10 @@ export default function Home() {
         priority
       />
       {/* Overlay for better text visibility */}
-      <div className="absolute inset-0 bg-pink-300/40"></div>
+      <div className="absolute inset-0 "></div>
 
       <main className="relative z-10 flex flex-col items-center justify-center text-center max-w-md w-full">
         {/* Heart animation */}
-        <div className="text-6xl sm:text-8xl mb-8 animate-bounce drop-shadow-lg">
-          💝
-        </div>
 
         {/* Question */}
         <h1 className="text-3xl sm:text-5xl font-bold text-white mb-12 px-4 drop-shadow-lg  rounded-2xl py-4">
